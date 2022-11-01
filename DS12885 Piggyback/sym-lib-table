@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name RTC_Pin)(type Legacy)(uri D:/ownCloud/Documents/Projects/DS12885/common/library/RTC_Pin.lib)(options "")(descr ""))
+)

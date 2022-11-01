@@ -1,0 +1,90 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Connector_Generic_Conn_01x02
+#
+DEF Connector_Generic_Conn_01x02 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Connector_Generic_Conn_01x02" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -150 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_Crystal_Small
+#
+DEF Device_Crystal_Small Y 0 40 N N 1 F N
+F0 "Y" 0 100 50 H V C CNN
+F1 "Device_Crystal_Small" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Crystal*
+$ENDFPLIST
+DRAW
+S -30 -60 30 60 0 1 0 N
+P 2 0 1 15 -50 -30 -50 30 N
+P 2 0 1 15 50 -30 50 30 N
+X 1 1 -100 0 50 R 50 50 1 1 P
+X 2 2 100 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RTC_Pin_RTC_Chip
+#
+DEF RTC_Pin_RTC_Chip #G 0 40 N N 1 F N
+F0 "#G" 125 0 50 H I C CNN
+F1 "RTC_Pin_RTC_Chip" -200 50 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+C 50 50 25 0 1 10 F
+S 475 -1475 0 100 0 1 10 f
+ENDDRAW
+ENDDEF
+#
+# RTC_Pin_RTC_NoPin
+#
+DEF RTC_Pin_RTC_NoPin #G 0 40 N N 1 F N
+F0 "#G" 125 0 50 H I C CNN
+F1 "RTC_Pin_RTC_NoPin" -200 50 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 10 f
+ENDDRAW
+ENDDEF
+#
+# RTC_Pin_RTC_Pin
+#
+DEF RTC_Pin_RTC_Pin J 0 40 N N 1 F N
+F0 "J" 125 0 50 H V C CNN
+F1 "RTC_Pin_RTC_Pin" -200 50 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -50 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Edge-Connect)(type KiCad)(uri ${KIPRJMOD}/../common/modules/Edge-Connect.pretty)(options "")(descr ""))
+)
